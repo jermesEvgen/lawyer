@@ -50,7 +50,7 @@ $bg_headerWrapper = ot_get_option('header__bg');
 
 		<?php if (ot_get_option( 'header__title'  )) {?>
 		    <!-- <h1><?php echo ot_get_option( 'header__title'  ); ?></h1> -->
-		    <h1><?php pll_e( 'header-title' ); ?></h1>
+		    <h1><?php pll_e( 'header-title' ); ?></h1> 
 		<?php } ?>
 		<?php if (ot_get_option( 'header__descr'  )) {?>
 		    <!-- <h3 ><?php echo ot_get_option( 'header__descr' ); ?></h3> -->
@@ -59,7 +59,8 @@ $bg_headerWrapper = ot_get_option('header__bg');
 
         <div class="btnHeader_posit">
 		   <a href="#ctaForm" class="btnHeader  smoothscroll">
-		   	   Получить бесплатную консультацию
+		   	   <!-- Получить бесплатную консультацию -->
+		   	   <?php pll_e('header-btn' ); ?>
 		   </a>
 
         </div>

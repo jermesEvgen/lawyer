@@ -238,6 +238,7 @@ function register_strings() {
    pll_register_string('Меню', 'menu');
    pll_register_string('Заголовок h1', 'header-title');
    pll_register_string('Подзаголовок h3', 'header-subtitle');
+   pll_register_string('Кнопка', 'header-btn');
    
    pll_register_string('Преимущества', 'profit-title');
    pll_register_string('Преимущества-1', 'profit-sub-title-1');

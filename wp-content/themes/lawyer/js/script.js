@@ -294,59 +294,59 @@ jQuery(document).ready(function(){
 
      // Медиа запросы для замены текста в кноках 
 
-     var handleMatchMedia = function(mediaQuery) {
-         if (mediaQuery.matches) {
-         // если менее 768px или равное, то выполняется код между скобок  
+     // var handleMatchMedia = function(mediaQuery) {
+     //     if (mediaQuery.matches) {
+     //     // если менее 768px или равное, то выполняется код между скобок  
 
-         jQuery('.header__info_phn').hide();
-         jQuery('.btnHeader ').text('Бесплатная консультация');
+     //     jQuery('.header__info_phn').hide();
+     //     jQuery('.btnHeader ').text('Бесплатная консультация');
 
-         jQuery(function(jQuery) {
+     //     jQuery(function(jQuery) {
 
-              jQuery(window).scroll(function(){
+     //          jQuery(window).scroll(function(){
            
-                  if(jQuery(this).scrollTop()>100){
-                    jQuery('.header__info_phn').hide();
+     //              if(jQuery(this).scrollTop()>100){
+     //                jQuery('.header__info_phn').hide();
 
-                 }
-                  else if (jQuery(this).scrollTop()<100){
+     //             }
+     //              else if (jQuery(this).scrollTop()<100){
 
-                    jQuery('.header__info_phn').hide();
-                 }
+     //                jQuery('.header__info_phn').hide();
+     //             }
 
-              });
-          });
+     //          });
+     //      });
 
 
-         } else {
-         // обратное условие, т.е если более 768px 
-         jQuery('.header__info_phn').show();
-         jQuery('.btnHeader ').text('Получить бесплатную консультацию');
+     //     } else {
+     //     // обратное условие, т.е если более 768px 
+     //     jQuery('.header__info_phn').show();
+     //     jQuery('.btnHeader ').text('Получить бесплатную консультацию');
 
-         jQuery(function(jQuery) {
+     //     jQuery(function(jQuery) {
 
-              jQuery(window).scroll(function(){
+     //          jQuery(window).scroll(function(){
            
-                  if(jQuery(this).scrollTop()>100){
-                    jQuery('.header__info_phn').show();
+     //              if(jQuery(this).scrollTop()>100){
+     //                jQuery('.header__info_phn').show();
 
-                 }
-                  else if (jQuery(this).scrollTop()<100){
+     //             }
+     //              else if (jQuery(this).scrollTop()<100){
 
-                    jQuery('.header__info_phn').show();
-                 }
+     //                jQuery('.header__info_phn').show();
+     //             }
 
-              });
-          });
-
-
+     //          });
+     //      });
 
 
-          }
-     },
-     mql = window.matchMedia('all and (max-width: 768px)');
-     handleMatchMedia(mql);
-     mql.addListener(handleMatchMedia); 
+
+
+     //      }
+     // },
+     // mql = window.matchMedia('all and (max-width: 768px)');
+     // handleMatchMedia(mql);
+     // mql.addListener(handleMatchMedia); 
 
 
 
