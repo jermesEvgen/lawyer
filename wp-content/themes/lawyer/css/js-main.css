@@ -1,0 +1,159 @@
+.js-wrapper__header_top {
+	 position: fixed;
+	 height: 100px;
+}
+
+.js-header__top {
+	width: 100%;
+	max-width: 100%;
+	height: 100px;
+	background-color: #92BDD2;
+	background-color: #fff;
+	padding: 0 1em;
+	display: flex;
+	align-items: center;
+}
+
+.js-header__logo{
+	width: 70px;
+	padding: .5em 0;
+	/*box-shadow: 2px 2px 2px 3px rgba(0,0,0, .3);*/
+}
+
+.js-menu__visibble {
+	width: 100%;
+	display: flex;
+	list-style: none;
+}
+.js-menu ul  {
+	border: 2px solid red;
+	width: 100%;
+	max-width: 800px;
+	display: flex;
+	padding: 0;
+	list-style: none;
+
+}
+.js-menu ul li a {
+	width: 100%;
+	/*color: #2D476A;*/
+	color: #314368;
+	font-size: 18px;
+	margin: 0 1em;
+}
+
+
+.js-headerCompany {
+	display: block;
+	width: 100%;
+	border: 2px solid red;
+}
+.js-header__logo_clr {
+	display: block;
+	border: 2px solid green;
+	width: 30%;
+}
+
+.js-menu__hidden {
+	width: 100%;
+	display: flex;
+	list-style: none;
+}
+.js-menu__hidden li  a{
+	margin: 0 1em;
+	font-size: 20px; 
+}
+
+.js-headerInfo {
+   top: -10px;
+	width: 30%;
+	height: 60%;
+	padding: 0;
+}
+.js-headerInfo a {
+	color: #2D476A;
+	font-size: 18px;
+	padding: 0; 
+}
+
+.js-header__info_qst {
+	color: #2D476A;
+	border: 2px solid #2D476A;
+	width: 100%; 
+} 
+
+.js-header__menu_scroll {
+	/*background-color: #314369;*/
+}
+
+.js-header__menu_media {
+  color: #000;	
+}
+
+.menu-link span:last-child {
+	/*color: #fff;*/
+	position: absolute;
+	font-size: 20px;
+	top: 23px;
+	right: -50px;
+}
+span.hamburger, span.hamburger:before, span.hamburger:after  {
+	position: absolute;
+	left: 50%;
+	margin-left: -18px;
+	top: 50%;
+	/*margin-top: -1px;  */
+    display: block;
+    height: 6px;
+    width: 35px;
+    /*background-color: #fff;*/
+    border-radius: 20px;
+}
+
+
+
+/*Анимация на сайте */
+.js-wrapper__header_top
+ {
+      transition: .3s all;
+
+/*		position: absolute;
+		-webkit-animation-name: spin;
+		-webkit-animation-duration: 40000ms;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-name: spin;
+		-moz-animation-duration: 40000ms;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+		-ms-animation-name: spin;
+		-ms-animation-duration: 40000ms;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: linear;*/
+
+		animation-name: slideInUp;
+		animation-duration: 400ms;
+		/*animation-iteration-count: 1;*/
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: both;
+		
+
+	}
+
+
+	@keyframes slideInUp {
+		0% {
+			-webkit-transform: translateY(20%);
+			-ms-transform: translateY(20%);
+			transform: translateY(20%);
+			visibility: visible;
+		}
+
+		100% {
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
+		}
+	}
+
+

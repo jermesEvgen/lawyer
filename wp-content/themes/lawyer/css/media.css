@@ -1,0 +1,341 @@
+/*==========  Desktop First Method  ==========*/
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1070px) {
+
+/*	.header__info div {
+		width: 100%;
+	}*/
+	.js-menu__hidden {
+		display: none;
+	}
+	.js-header__logo_clr {
+		display: none;
+	}
+	.header__menu {
+		display: block;
+	}
+	.js-headerInfo {
+		width: 100%;
+	}
+
+}
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	h1 {
+		font-size: 30px;
+		line-height: 1.2;
+	}
+	h3 {
+		font-size: 19px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+
+
+
+
+
+   .header__info_phn {
+   	display: none;
+   }
+   .header__info div {
+   	/*max-width: 300px;*/
+   }
+	.servicesItems  {
+   width: 33.33%;
+    }
+    .aboutOffer__wrapper {
+    	flex-wrap: wrap;
+    	padding: 0 1em;
+    }
+    .aboutContent__quote {
+    	flex-wrap: wrap;
+    }
+    a.aboutContent__bt {
+    	/*width: 50%;*/
+    }
+    .aboutImg {
+    	display: none;
+    }
+    .aboutContent {
+    	width: 80%;
+    	padding: 3em 0;
+    }
+    .aboutWrap {
+    	padding: 0;
+    }
+
+    .ctaFormTab {
+    	width: 100%;
+    	text-align: left;
+    	margin: 2em auto; 
+    	justify-content: space-between;
+    }
+    .ctaFormTab__descr {
+    	text-align: left;
+    	font-size: 16px;
+    }
+    .ctaFormTab__item {
+    	margin: 0 .2em;
+    	padding: 0;
+    	border: 1px solid #314368; 
+    	text-align: center;
+    }
+    .ctaFormTab__img img {
+    	width: 70%;
+    }
+    .contactBlock {
+    	flex-wrap: wrap;
+    	flex-direction: column;
+    	position: relative;
+
+    }
+    .contactBlock div {
+    	margin: .5em 0;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	 .header__info div {
+	 	width: 100%;
+	 	height:90%;
+	 	display: flex;
+	 	align-items: center;
+	 	justify-content: flex-end;
+
+	 	/*position: absolute;*/
+	 	/*display: flex;*/
+	 	/*flex-direction: column;*/
+	 	/*align-items: flex-end;*/
+	 }
+	 .header__info_phn {
+	 	font-size: 16px; 
+	 	/*display: none;*/
+	 }
+
+
+
+	 a.btnHeader {
+	 	font-size: 17px;
+	 }
+
+	 .header__top.cd-auto-hide-header {
+	 	padding: 1em 0;
+	 }
+
+
+	 
+
+	 .ctaFormTab {
+	 	width: 100%;
+	 	text-align: left;
+	 	margin: 2em auto; 
+	 	padding: 0 1em;
+	 	justify-content: space-between;
+	 }
+	 .ctaFormTab__descr {
+	 	display: none;
+	 }
+	 .ctaFormTab__item {
+	 	margin: 0 .2em;
+	 	padding: 0;
+	 	border: 2px solid #314368; 
+	 	text-align: center;
+	 }
+	 .ctaFormTab__img img {
+	 	width: 70%;
+	 }
+	 .date_time, .ctaFormTabs__items_input input {
+	 	width: 100%;
+	 }
+	 .ctaFormTabs__items {
+	 	padding: 0 1em;
+	 }
+	 .ctaFormTabs__items_input {
+	 	width: 100%;
+	 }
+	 .ctaFormTabs__btn {
+	 	/*width: 100%;*/
+	 	/*max-width: 250px;*/
+	 	/*font-size: 24px;*/
+	 	/*padding: .2em 0;*/
+	 }
+	 .input-group {
+	 	width: 100%;
+	 }
+	 .input--textarea {
+	 	width: 100%;
+	 }
+	 .contactBlock {
+	 	bottom: 0;
+	 }
+
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 700px) {
+
+}
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+/*	.header__info div {
+		width: 100%;
+	}*/
+	.header__top.cd-auto-hide-header {
+		padding: 0 .2em;
+	}
+
+	.servicesItems  {
+		width: 100%;
+	}
+	.aboutContent {
+		width: 90%;
+	}
+	.aboutContent__bt.aboutContent__bt_pos {
+		width: 70%;
+		margin: 1em auto;
+
+		
+	}
+   .profitItem__title {
+		width: 90%;
+	}
+	.aboutWworkItem__img {
+		text-align: center;
+		width: 100px;
+		padding: .2em;
+	}
+	.aboutWworkItem__img img {
+		/*width: 55px;*/
+	}
+
+
+	.header__info_qst  {
+		width: 100%;
+
+	}
+
+	.aboutWworkItem__number img{
+		width: 30px;
+	}
+	.profitItem.profitItem__bg_1,
+	.profitItem.profitItem__bg_2,
+	.profitItem.profitItem__bg_3,
+	.profitItem.profitItem__bg_4,
+	.profitItem.profitItem__bg_5,
+	.profitItem.profitItem__bg_6 {
+		background-image: none;
+	}
+	.profitItem__img {
+		/*width: 30%;*/
+		text-align: center;
+	}
+
+	.ctaMain h6, .ctaMain h2 {
+		width: 90%;
+	}
+
+
+	.offerBlock__title {
+		width: 100%;
+		text-align: center;
+		align-items: center;
+	}
+/*	.aboutWworkItem__block {
+		max-width: 300px;
+	}*/
+	.ctaMain {
+		padding:2em 0; 
+	}
+	aside {
+		/*border: 1px solid red;*/
+		width: 90%;
+		margin: 0 auto;
+		display: flex;
+		/*padding: 1em;  */
+	}
+
+  
+   .btnHeader {
+    	width: 100%;
+    	margin: 0 auto; 
+    	font-size: 14px;
+    }
+
+
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
